@@ -23,7 +23,7 @@ function alphabits(string) {
 }
 
 function palindrome(string) {
-	if(string.split("").reverse().join("") == string){
+	if(string.split("").reverse().join("").toLowerCase() == string.toLowerCase()){
 	document.getElementById("palindrome").innerHTML= "Your string is a palindrome";
 }
 	else{
